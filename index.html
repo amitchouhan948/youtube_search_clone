@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #navbar{
+            /* border: 1px solid green; */
+            display: flex;
+            height: 60px;
+            justify-content: space-between;
+
+        }
+        #navbar>div>img{
+            height: 60px;
+        }
+        #navsearch{
+            display: flex;
+
+        }
+        #query{
+            margin-top: 8px;
+            width: 400px;
+            padding: 5px;
+            height: 25px;
+        }
+        #searchImg{
+            margin-top: 7px;
+            height: 40px;
+            width: 60px;
+        }
+        #advertise{
+            height: 350px;
+            width: 100%;
+        }
+        #container{
+           
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            gap: 20px;
+         width: 95%;
+            margin: auto;
+           
+        }
+        #container>div>img{
+            width: 280px;
+            
+        }
+    </style>
+</head>
+<body>
+    <nav id="navbar">
+        <div>
+            <img src="logo.png" alt="logo">
+        </div>
+        <div id="navsearch">
+            <input type="text" id="query" placeholder="Youtube Search">
+            <input id="searchImg" type="image" src="btn.png" onclick="append()">
+        </div>
+        <div>
+            <img src="login.png" alt="signup">
+        </div>    
+    </nav>
+
+    <div >
+
+        <img id="advertise" src="adv.png" alt="">
+
+    </div>
+   
+
+
+
+    <div id="container">
+
+    </div>
+</body>
+</html>
+<script src="youtube.js"></script>
