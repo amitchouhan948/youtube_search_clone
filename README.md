@@ -16,4 +16,4 @@ For fun can be used to search videos.
 
 ## Screenshot
 
-<img width="100%" scr="https://i.imgur.com/FSpZxJW.png" alt="image" />
+<img width="100%" src="https://i.imgur.com/FSpZxJW.png" alt="image" />
